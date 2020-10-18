@@ -70,7 +70,7 @@
           <resourceGroup>lookahead-1602998406049-rg</resourceGroup>
           <appName>lookahead-1602998406049</appName>
           <pricingTier>F1</pricingTier>
-          <region>southcentralus</region>
+          <region>northcentralus</region>
           <runtime>
             <os>linux</os>
             <javaVersion>jre8</javaVersion>
