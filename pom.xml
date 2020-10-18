@@ -69,8 +69,8 @@
           <subscriptionId>e17b20e7-9e0d-472a-8527-1631ff0c8e36</subscriptionId>
           <resourceGroup>lookahead-1602998406049-rg</resourceGroup>
           <appName>lookahead-1602998406049</appName>
-          <pricingTier>P1v2</pricingTier>
-          <region>westeurope</region>
+          <pricingTier>F1</pricingTier>
+          <region>southcentralus</region>
           <runtime>
             <os>linux</os>
             <javaVersion>jre8</javaVersion>
