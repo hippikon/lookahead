@@ -10,14 +10,12 @@ import de.riverserene.azure.lookahead.model.User;
 @RestController
 public class GoogleAuthRoutes extends RouteBuilder {
 
-	public static final String ROUTE_NAME = "TIMER_ROUTE";
-    
 	@PostMapping("/authenticate")
-	@Override
     public void authenticate(@RequestBody User user) throws Exception {
-        from("timer:initial//start?period=60m")
-                .routeId(ROUTE_NAME)
-                .to("log:executed");
     }
+
+	@Override
+	public void configure() throws Exception {
+	}
 
 }

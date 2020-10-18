@@ -10,7 +10,7 @@ public class MainCamelRoute extends RouteBuilder {
     
 	@Override
     public void configure() throws Exception {
-        from("timer:initial//start?period=60m")
+        from("timer:initial//start?period=10s")
                 .routeId(ROUTE_NAME)
                 .to("log:executed");
     }
