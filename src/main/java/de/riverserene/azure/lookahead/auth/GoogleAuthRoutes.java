@@ -12,6 +12,7 @@ public class GoogleAuthRoutes extends RouteBuilder {
 
 	@PostMapping("/authenticate")
     public void authenticate(@RequestBody User user) throws Exception {
+
     }
 
 	@Override
